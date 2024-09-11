@@ -1,30 +1,24 @@
-﻿
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main()
 {
-    int c;
-    printf("새 게임 : 1\n");
-    printf("불러오기 : 2\n");
-    printf("설정 : 3\n");
-    printf("크레딧 : 4\n");
-    scanf_s("%d", &c);
+    int choice;
 
-    switch (c) {
-    case 1:
+    printf("새게임: 1\n");
+    printf("불러오기: 2\n");
+    printf("설정: 3\n");
+    printf("크레딧: 4\n");
+    scanf_s("%d", &choice);
+
+    if (choice == 1)
         printf("새 게임.\n");
-        break;
-    case 2:
+    else if (choice == 2)
         printf("불러오기.\n");
-        break;
-    case 3:
+    else if (choice == 3)
         printf("설정.\n");
-        break;
-    case 4:
-        printf("크레딧.\n");
-        break;
-    default:
-        printf("잘못입력하셨습니다.\n");
-        break;
-    }
+    else if (choice == 4)
+        printf("불러오기.\n");
+    else if (choice == 5)
+        printf("잘못 입력했습니다.\n");
+   
 }

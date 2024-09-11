@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3c764e6e-1aab-493c-b335-b5a353708f1f}</ProjectGuid>
-    <RootNamespace>My022menu</RootNamespace>
+    <ProjectGuid>{fe62ce45-821c-45ea-9cfa-3e1ff3ded3b1}</ProjectGuid>
+    <RootNamespace>My023switch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="022_menu.cpp" />
+    <ClCompile Include="023_switch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
